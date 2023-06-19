@@ -1,3 +1,7 @@
+html, body{
+  margin: 0;
+}
+
 div{
   height: 100%;
 }
@@ -17,7 +21,7 @@ div{
 
 .navbarMain{
   display: flex;
-  background-color: lavender;
+  flex-direction: column;
   height: 80vh;
   width: 15vw;
 }
