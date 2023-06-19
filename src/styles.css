@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+div{
+  height: 100%;
+}
+
+.banner{
+  background-color: pink;
+  display: flex;
+  height: 10vh;
+  width: 100vw;
+}
+
+.contentBox{
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+}
+
+.navbarMain{
+  display: flex;
+  background-color: lavender;
+  height: 80vh;
+  width: 15vw;
+}
+
+.subContentBox{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 85vw;
+}
+
+.navbarSub{
+  display: flex;
+  background-color: blue;
+  height: 10vh;
+  width: 100vw;
+}
+
+.dyanmicContentBox{
+  display: flex;
+  background-color: darkgrey;
+  height: 80vh;
+  width: 100vw;
+}
+
+.footer{
+  display: flex;
+  background-color: black;
+  height: 10vh;
+  width: 100vw;
+}
