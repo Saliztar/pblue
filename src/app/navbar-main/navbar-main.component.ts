@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar-main.component.css']
 })
 export class NavbarMainComponent {
-
+  tools = ['Tool 1','Tool 2', 'Tool 3', 'Tool 4', 'Tool 5'];
 }

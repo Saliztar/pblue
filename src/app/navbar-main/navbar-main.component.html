@@ -1,8 +1,4 @@
 <div class="navbarMainHeader">Tool Navigator</div>
-<ul>
-  <li>Tool 1</li>
-  <li>Tool 2</li>
-  <li>Tool 3</li>
-  <li>Tool 4</li>
-  <li>Tool 5</li>
+<ul *ngFor="let t of tools">
+  <li>{{ t }}</li>
 </ul>

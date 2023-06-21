@@ -1,0 +1,20 @@
+ul{
+  list-style-type: none;
+  display: inline;
+}
+
+li {
+  display: flex;
+  height: 5vh;
+  width: 5vw;
+  align-items: center;
+  justify-content: center;
+  border: black solid 1px;
+  float: left;
+  background-color: lightblue;
+}
+
+li:hover{
+  background-color: blue;
+  color: white;
+}

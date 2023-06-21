@@ -1,6 +1,7 @@
 .navbarMainHeader{
-  text-align: center;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: purple;
   color: lightgrey;
   margin: 0;
@@ -15,9 +16,10 @@ ul{
 }
 
 li{
-  display: block;
+  display: flex;
   background-color: lavender;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   border: 2px solid black;
   padding: 0;
   height: 5vh;
